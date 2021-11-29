@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Cricket",
+		"route": "/play",
+		"icon": "/images/ball_grey.png"
+	},
+	{
+		"title": "Football",
+		"route": "/play",
+		"icon": "/images/football_icon.png"
+	},
+	{
+		"title": "Kabaddi",
+		"route": "/play",
+		"icon": "/images/kabaddi.png"
+	},
+	{
+		"title": "Basketball",
+		"route": "/play",
+		"icon": "/images/basketball.png"
+	},
+	{
+		"title": "Hockey",
+		"route": "/play",
+		"icon": "/images/hockey.png"
+	}
+]

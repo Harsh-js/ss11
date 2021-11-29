@@ -1,0 +1,39 @@
+[
+	{
+		"title": "Home",
+		"route": "/",
+		"icon": "/images/ball_grey.png"
+	},
+	{
+		"title": "My Balance",
+		"route": "/play",
+		"icon": "/images/wallet_drawer_icon.png",
+		"innerIcon": "₹50"
+	},
+	{
+		"title": "Winners",
+		"route": "/play",
+		"icon": "/images/winners_icon.png"
+	},
+	{
+		"title": "How to Play",
+		"route": "/play",
+		"icon": "/images/joystick_icon.png"
+	},
+	{
+		"title": "Refer & Earn",
+		"route": "/play",
+		"icon": "/images/add_user_icon.png",
+		"innerIcon": "INVITE"
+	},
+	{
+		"title": "My Info & Settings",
+		"route": "/play",
+		"icon": "/images/setting_icon.png"
+	},
+	{
+		"title": "More",
+		"route": "/play",
+		"icon": "/images/more_icon.png"
+	}
+]

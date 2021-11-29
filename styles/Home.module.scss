@@ -1,0 +1,171 @@
+/** @format */
+@import "variable";
+
+#SplashDiv {
+	display: none;
+}
+
+@media only screen and (max-width: 425px) {
+	#HomePage {
+		border-radius: unset !important;
+	}
+	#SplashDiv {
+		position: fixed;
+		width: 100%;
+		height: 120%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		z-index: 100;
+		background-color: white;
+		animation: splashImg 2s ease-out 1;
+		animation-timing-function: cubic-bezier();
+		bottom: -660px;
+		border-radius: 20px;
+		transition: all linear;
+		backdrop-filter: unset;
+	}
+	#HomeLogSignDiv {
+		width: 100%;
+		height: 200px;
+		background: white;
+		border-radius: 20px 20px 0 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+			rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+		position: relative;
+	}
+	#HomeLogSignDiv img {
+		position: absolute;
+		bottom: 10px;
+		width: 200px;
+		filter: invert(10);
+	}
+	#SplashImg {
+		width: 100%;
+		border-radius: 20px 20px 0 0;
+
+		display: block;
+	}
+	@keyframes splashImg {
+		0% {
+			bottom: 0;
+			background-color: transparent;
+			backdrop-filter: blur(10px);
+		}
+		70% {
+			bottom: 0;
+			background-color: transparent;
+			backdrop-filter: blur(10px);
+		}
+		100% {
+			bottom: -660px;
+			backdrop-filter: blur(0px);
+			background-color: white;
+		}
+	}
+}
+.HomeLogBtn {
+	width: 150px !important;
+	height: 50px !important;
+	background: $PrimaryColor !important;
+	color: white !important;
+}
+
+#HomePage {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("/images/bg_splash.png");
+	background-color: $PrimaryColor;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px 10px 30px 30px;
+}
+.HomeHeading {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px !important;
+	box-sizing: border-box;
+}
+.HomeHeading img:nth-child(1) {
+	// filter: invert(10);
+	width: 70%;
+	max-width: 400px;
+}
+.HomeHeading img:nth-child(2) {
+	width: 10%;
+	max-width: 70px;
+}
+.HomePagePlayerDiv {
+	width: 90%;
+	height: 200px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	border-radius: 5px;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	position: relative;
+	background-color: white;
+}
+#HPPD2 {
+	transform: rotateY(180deg);
+}
+
+.HomePagePlayerDiv span {
+	color: gray;
+	font-weight: 700;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.HomePagePlayerDiv p {
+	color: black;
+	font-size: 25px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.HomePagePlayerDiv img {
+	width: fit-content;
+	position: absolute;
+	width: 160px;
+	right: -20px;
+	transform: rotateY(180deg);
+	bottom: 0 !important;
+}
+#HomePageImg2 {
+	width: 90%;
+	margin: 10px;
+	border-radius: 10px;
+}
+#DHomeLogSignDiv {
+	width: 100%;
+	height: 109px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: white;
+	position: relative;
+	border-radius: 20px 20px 30px 30px;
+}
+.DHomeLogBtn {
+	width: 100px !important;
+	height: 40px !important;
+	background: $PrimaryColor !important;
+	color: white !important;
+}
+#DHomeLogSignDiv img {
+	position: absolute;
+	bottom: 5px;
+	width: 100px;
+	filter: invert(10);
+}

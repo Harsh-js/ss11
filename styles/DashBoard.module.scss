@@ -1,0 +1,24 @@
+/** @format */
+
+@import "variable";
+@media only screen and (max-width: 425px) {
+	.DashBoardMyMatchFilter {
+		width: 100% !important;
+	}
+}
+.DashBoardMyMatchFilter {
+	width: 98%;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: -10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #d2d2d2;
+	.DashBoardMyMatchFilterBtn {
+		width: inherit !important;
+		color: gray;
+		border-radius: 0;
+		height: 100% !important;
+	}
+}

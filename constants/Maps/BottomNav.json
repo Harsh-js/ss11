@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Home",
+		"route": "/dashboard",
+		"icon": "/images/home_drawer_icon.png"
+	},
+	{
+		"title": "My Match",
+		"route": "/dashboard/my-matches",
+		"icon": "/images/gray_trophy.png"
+	},
+	{
+		"title": "Me",
+		"route": "/dashboard/me",
+		"icon": "/images/users_icon.png"
+	},
+	{
+		"title": "More",
+		"route": "/dashboard/more",
+		"icon": "/images/more_icon.png"
+	}
+]
